@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question-container">
+            <h3 class="question-header"></h3>
+            <form class="answer-options">
+                <label><input type="radio" name="answer" value="a"> <span class="option-a"></span></label>
+                <label><input type="radio" name="answer" value="b"> <span class="option-b"></span></label>
+                <label><input type="radio" name="answer" value="c"> <span class="option-c"></span></label>
+                <label><input type="radio" name="answer" value="d"> <span class="option-d"></span></label>
+            </form>
+            <button class="submit-button">Submit</button>
+        </div>
+        <div class="result-container">
+            <p class="result-text"></p>
+            <button class="reload-button">Reload</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
